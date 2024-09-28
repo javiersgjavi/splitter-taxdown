@@ -1,0 +1,40 @@
+conversacion
+"preguntas:
+- pregunta: ""¿Es eso?""
+  contexto: ""El borrador de hacienda no está incluyendo algo que Taxdown sí incluye.""
+"
+"preguntas:
+"
+"preguntas:
+- pregunta: ""Cuando vais a revisar mi declaración?""
+  contexto: ""La hice el martes y no se nada de vosotros, he pagado para full, pensaba que iba a tener noticias vuestras al día siguiente""
+- pregunta: ""hay algún problema?""
+  contexto: ""La hice el martes y no se nada de vosotros, he pagado para full, pensaba que iba a tener noticias vuestras al día siguiente""
+"
+"preguntas:
+"
+"preguntas:
+- pregunta: ""¿Podrías incluir también estos archivos en mi perfil para la revisión?""
+"
+"preguntas:
+- pregunta: ""¿no lo confirmo?""
+  contexto: ""Entonces, ese borrador que me sale en AEAT""
+- pregunta: ""¿Es así?""
+  contexto: ""Entonces, ese borrador que me sale en AEAT""
+"
+"preguntas:
+"
+"preguntas:
+- pregunta: ""¿me podéis ayudar?""
+  contexto: ""No consigo encontrar el CIF que corresponde,""
+"
+"preguntas:
+- pregunta: ""¿Cómo aplico la deducción a mi mujer?""
+- pregunta: ""¿Le pongo la mitad de la cantidad que pagamos al año o cómo debo ponerlo?""
+"
+"preguntas:
+- pregunta: ""¿Tendría que marcar la casilla de 1 o más propiedades?""
+  contexto: ""La compra y venta de un apartamento en el extranjero.""
+- pregunta: ""¿La otra casilla de propiedades en el extranjero?""
+  contexto: ""La compra y venta de un apartamento en el extranjero.""
+"

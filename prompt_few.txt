@@ -1,0 +1,34 @@
+Recibe el siguiente mensaje de un usuario que contiene múltiples preguntas y posible contexto adicional. Tu tarea es extraer y organizar las preguntas de forma clara y estructurada en formato YAML. Para cada pregunta, identifica cualquier contexto adicional relevante que la acompañe. La salida debe seguir esta estructura:
+
+```yaml
+preguntas:
+  - pregunta: "Texto de la pregunta 1"
+    contexto: "Contexto relacionado con la pregunta 1 (si lo hay)"
+  - pregunta: "Texto de la pregunta 2"
+    contexto: "Contexto relacionado con la pregunta 2 (si lo hay)"
+  - pregunta: "Texto de la pregunta 3"
+    contexto: "Contexto relacionado con la pregunta 3 (si lo hay)"
+```
+Recuerda:
+
+	1.	Identificar todas las preguntas en el mensaje.
+	2.	Asociar cada pregunta con cualquier contexto adicional relevante.
+	3.	Si no hay preguntas en el mensaje, el campo preguntas debe estar vacío.
+
+Ejemplos:
+
+Mensaje 1:
+Ahora estoy en el punto de planes de pensiones y yo tengo con FWU Insurence un plan de pension y otro con Liberty lo que no sé si es de pensiones. Esto ayuda en algo?
+
+Respuesta objetivo:
+preguntas:
+  - pregunta: "Esto ayuda en algo?"
+    contexto: "Ahora estoy en el punto de planes de pensiones y yo tengo con FWU Insurence un plan de pension y otro con Liberty lo que no sé si es de pensiones."
+
+Mensaje 2:
+Buenos días si me disculpo por el despiste ya e confirmado ahora mismo un saludo cordial
+
+Respuesta objetivo:
+preguntas: []
+
+Aquí está el mensaje del usuario que debes procesar:
