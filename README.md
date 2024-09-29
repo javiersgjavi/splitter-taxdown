@@ -12,7 +12,6 @@
 
    
 ## 1. Introducción
-<a name="1-introduccion"></a>
 
 Este repositorio contiene la implementación de un sistema "splitter" diseñado para identificar y organizar las preguntas contenidas en los mensajes de usuarios.
 
@@ -21,7 +20,6 @@ A lo largo de este documento, se detallan los pasos seguidos para desarrollar la
 Para proporcionar una visión más clara del proceso de desarrollo, se ha grabado un vídeo que documenta cómo se llevó a cabo la implementación. El vídeo, sin audio, se enfoca en mostrar mi proceso de trabajo y documentación, ilustrando cómo implementé el código necesario para la solución previamente seleccionada.
 
 ## 2. Análisis de Datos
-<a name="2-analisis-de-datos"></a>
 
 En esta sección se presentan las conclusiones extraídas tras un análisis exploratorio del dataset proporcionado. Para ello, se hizo uso de la librería Pandas y de una visualización de los datos sobre el propio csv original. Se observaron las siguientes características:
 
@@ -34,7 +32,6 @@ En esta sección se presentan las conclusiones extraídas tras un análisis expl
 - **Saludo y despedida:** La mayoría de los mensajes incluyen elementos de saludo o despedida, lo que puede ser relevante para su procesamiento.
 
 ## 3. Diseño del Sistema
-<a name="3-diseño-del-sistema"></a>
 
 A continuación se exploran varias posibles soluciones y se analizan sus ventajas y desventajas para abordar el problema de separar las múltiples preguntas y sus contextos.
 
