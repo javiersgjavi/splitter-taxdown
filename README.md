@@ -1,6 +1,18 @@
 # splitter-taxdown
 
+# Índice
+1. [Introducción](#1-introduccion)
+2. [Análisis de Datos](#2-analisis-de-datos)
+3. [Diseño del Sistema](#3-diseño-del-sistema)
+4. [Implementación del Sistema](#4-implementación-del-sistema)
+5. [Pruebas Realizadas](#5-pruebas-realizadas)
+6. [Análisis del Resultado](#6-análisis-del-resultado)
+7. [Análisis del Código](#7-análisis-del-código)
+8. [Vídeo Desarrollo](#8-vídeo-desarrollo)
+
+   
 ## 1. Introducción
+<a name="1-introduccion"></a>
 
 Este repositorio contiene la implementación de un sistema "splitter" diseñado para identificar y organizar las preguntas contenidas en los mensajes de usuarios.
 
@@ -9,6 +21,7 @@ A lo largo de este documento, se detallan los pasos seguidos para desarrollar la
 Para proporcionar una visión más clara del proceso de desarrollo, se ha grabado un vídeo que documenta cómo se llevó a cabo la implementación. El vídeo, sin audio, se enfoca en mostrar mi proceso de trabajo y documentación, ilustrando cómo implementé el código necesario para la solución previamente seleccionada.
 
 ## 2. Análisis de Datos
+<a name="2-analisis-de-datos"></a>
 
 En esta sección se presentan las conclusiones extraídas tras un análisis exploratorio del dataset proporcionado. Para ello, se hizo uso de la librería Pandas y de una visualización de los datos sobre el propio csv original. Se observaron las siguientes características:
 
@@ -21,6 +34,7 @@ En esta sección se presentan las conclusiones extraídas tras un análisis expl
 - **Saludo y despedida:** La mayoría de los mensajes incluyen elementos de saludo o despedida, lo que puede ser relevante para su procesamiento.
 
 ## 3. Diseño del Sistema
+<a name="3-diseño-del-sistema"></a>
 
 A continuación se exploran varias posibles soluciones y se analizan sus ventajas y desventajas para abordar el problema de separar las múltiples preguntas y sus contextos.
 
@@ -250,39 +264,7 @@ El repositorio contiene los siguientes archivos:
 
 - **tokens.ipynb**: Notebook con el código utilizado para calcular el coste de la solución que he propuesto.
 
-## 8. Vídeo desarrollo
-
-Ya que se pedía que se quería ver como sería el proceso de desarrollo de cómo implementaría este proyecto, y que se solicitaban las conversaciones con ChatGPT o Claude durante el desarrollo, he decidido grabar mi pantalla mientras lo desarrollaba. De esta forma se solucionan dos problemas:
-
-1. Cómo he usado Cursor para desarrollar el proyecto, era complejo compartir los mensajes con los LLMs que he usado como asistente durante el desarrollo.
-
-2. Se da incluso aún más transparencia al proceso de como desarrollaría esto en un escenario real.
-
-El vídeo muestra 4 sesiones distintas que he hecho durante el viernes tarde/noche y el sábado. Las secciones son las siguientes:
-
-### 1. Documentación y pruebas con embeddings
-
-Ya que nunca había utilizdo la API de OpenAI antes, ni había probado a hacer ningún proyecto que hiciera uso de modelos de embeddings, en esta parte busco familiarizarme con los conceptos.
-
-1. Aunque se lo que es un embedding, intento buscar información o algún paper sobre como están entrenados los modelos de embeddings de la API de OpenAI
-
-2. Me familiarizo con la librería de OpenAI y su API
-
-3. Hago algunas pruebas con embeddings para probar la viabilidad de la ídea que se me ocurre de usarlos cómo método de evaluación
-
-### 2. Implementación Splitter y evaluación
-
-Aquí se encuentra casi toda la parte del desarrollo, se muestra como implemento el splitter y el sistema de evaluación y hago alguna prueba
-
-### 3. Mejora evaluación y pruebas
-
-En esta parte me dedico a mejorar la evaluación generando outputs objetivo con el modelo de o1-mini, e implemento algunas pruebas para analizar el funcionamiento
-
-### 4. Mejora prompt
-
-En esta última parte prueba a mejorar el prompt aprovechando las técnicas del in-context learning para ver si puedo mejorar aún más los resultados.
-
-## 7. Vídeo Desarrollo
+## 8. Vídeo Desarrollo
 
 Dado que se comentó que con esta prueba se quería ver o entender como sería mi proceso de desarrollo e implementación de este proyecto, y se pidieron las conversaciones con ChatGPT o Claude durante el desarrollo, decidí grabar mi pantalla mientras trabajaba en él. Esto soluciona dos problemas:
 
@@ -291,7 +273,7 @@ Dado que se comentó que con esta prueba se quería ver o entender como sería m
 
 El vídeo se divide en 4 sesiones distintas, que abarcan desde el viernes por la tarde/noche hasta el sábado. A continuación, se describen las secciones:
 
-### 7.1 Documentación y Pruebas con Embeddings
+### 8.1 Documentación y Pruebas con Embeddings
 
 En esta primera parte, me familiarizo con los conceptos y herramientas relacionadas con embeddings, ya que era mi primera vez utilizando la API de OpenAI y desarrollando un proyecto que hiciera uso de modelos de embeddings:
 
@@ -299,14 +281,14 @@ En esta primera parte, me familiarizo con los conceptos y herramientas relaciona
 2. Me familiaricé con la librería de OpenAI y su API, explorando las funcionalidades que ofrece.
 3. Realicé algunas pruebas iniciales con embeddings para evaluar la viabilidad de utilizar este enfoque como método de evaluación en el proyecto.
 
-### 7.2 Implementación del Splitter y Evaluación
+### 8.2 Implementación del Splitter y Evaluación
 
 En esta sección, que constituye la mayor parte del desarrollo, se muestra cómo implementé el splitter y el sistema de evaluación. También se realizaron algunas pruebas para validar su funcionamiento y analizar los resultados obtenidos.
 
-### 7.3 Mejora de la Evaluación y Pruebas
+### 8.3 Mejora de la Evaluación y Pruebas
 
 Durante esta fase, trabajé en la mejora del sistema de evaluación, generando mejores outputs objetivo utilizando el modelo o1-mini. Implementé varias pruebas adicionales para analizar la efectividad.
 
-### 7.4 Mejora del Prompt
+### 8.4 Mejora del Prompt
 
 En esta última parte, enfoqué los esfuerzos en mejorar el prompt. Probé técnicas de in-context learning para ver si podía obtener resultados más precisos y mejorar la calidad de la separación de las preguntas dentro de los mensajes.
