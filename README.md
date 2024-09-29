@@ -1,8 +1,7 @@
 # splitter-taxdown
-
 # Índice
-1. [Introducción](#1-introduccion)
-2. [Análisis de Datos](#2-analisis-de-datos)
+1. [Introducción](#1-introducción)
+2. [Análisis de Datos](#2-análisis-de-datos)
 3. [Diseño del Sistema](#3-diseño-del-sistema)
 4. [Implementación del Sistema](#4-implementación-del-sistema)
 5. [Pruebas Realizadas](#5-pruebas-realizadas)
@@ -262,6 +261,9 @@ El repositorio contiene los siguientes archivos:
 - **tokens.ipynb**: Notebook con el código utilizado para calcular el coste de la solución que he propuesto.
 
 ## 8. Vídeo Desarrollo
+
+[![Alt text](https://img.youtube.com/vi/S-KE-zxvqOk/0.jpg)](https://www.youtube.com/watch?v=S-KE-zxvqOk)
+
 
 Dado que se comentó que con esta prueba se quería ver o entender como sería mi proceso de desarrollo e implementación de este proyecto, y se pidieron las conversaciones con ChatGPT o Claude durante el desarrollo, decidí grabar mi pantalla mientras trabajaba en él. Esto soluciona dos problemas:
 
